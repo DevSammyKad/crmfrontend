@@ -5,6 +5,7 @@ import axios from 'axios';
 import SvgInstagram from '../icons/Instagram';
 
 const NewleadForm = ({ closeModal }) => {
+  const baseUrl = import.meta.env.VITE_BASEURL;
   const [formData, setFormData] = useState({
     lead_name: '',
     lead_contact: '',
@@ -53,7 +54,7 @@ const NewleadForm = ({ closeModal }) => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:3000/api/leads/create', formData);
+      await axios.post(`${baseUrl}/api/leads/create`, formData);
       toast.success('Lead submitted successfully!');
       closeModal();
 

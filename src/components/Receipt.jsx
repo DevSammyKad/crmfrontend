@@ -5,6 +5,7 @@ import SvgCloseCircle from '../icons/CloseCircle';
 import * as yup from 'yup';
 
 const Receipt = ({ closeModal, initialData }) => {
+  const baseUrl = import.meta.env.VITE_BASEURL;
   const [formData, setFormData] = useState({
     receiptId: 'RCPT-',
     clientName: '',
@@ -49,8 +50,8 @@ const Receipt = ({ closeModal, initialData }) => {
     e.preventDefault();
 
     const url = initialData
-      ? `http://localhost:3000/api/receipts/update/${initialData._id}`
-      : 'http://localhost:3000/api/receipts/create';
+      ? `${baseUrl}/api/receipts/update/${initialData._id}`
+      : `${baseUrl}/api/receipts/create`;
 
     try {
       const method = initialData ? 'patch' : 'post';

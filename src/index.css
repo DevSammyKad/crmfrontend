@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #151924;
+}
+h5 {
+  color: #848588;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #invoice-container,
+  #invoice-container * {
+    visibility: visible;
+    size: 4A landscape;
+    font-size: 8px;
+  }
+
+  #invoice-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  button {
+    display: none;
+  }
+  input {
+    border: none;
+  }
+  .invoice-container span {
+    background: transparent;
+    text-align: start;
+  }
+  table .tboday {
+    border: 1px dashed red;
+    border-radius: 40px;
+  }
+  tr {
+    text-align: start;
+    border: none;
+  }
+}

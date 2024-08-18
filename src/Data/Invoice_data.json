@@ -1,0 +1,72 @@
+[
+  {
+    "Invoice ID": 1,
+    "Customer Name": "Wat",
+    "Invoice Date": "12/2/2023",
+    "Status": "Draft",
+    "Amount": "$3.46"
+  },
+  {
+    "Invoice ID": 2,
+    "Customer Name": "Jessie",
+    "Invoice Date": "3/29/2024",
+    "Status": "Paid",
+    "Amount": "$5.63"
+  },
+  {
+    "Invoice ID": 3,
+    "Customer Name": "Rici",
+    "Invoice Date": "8/27/2023",
+    "Status": "Pending",
+    "Amount": "$7.64"
+  },
+  {
+    "Invoice ID": 4,
+    "Customer Name": "Gillie",
+    "Invoice Date": "10/1/2023",
+    "Status": "Paid",
+    "Amount": "$6.97"
+  },
+  {
+    "Invoice ID": 5,
+    "Customer Name": "Adair",
+    "Invoice Date": "12/4/2023",
+    "Status": "Paid",
+    "Amount": "$2.48"
+  },
+  {
+    "Invoice ID": 6,
+    "Customer Name": "Wittie",
+    "Invoice Date": "3/28/2024",
+    "Status": "Pending",
+    "Amount": "$2.88"
+  },
+  {
+    "Invoice ID": 7,
+    "Customer Name": "Hollie",
+    "Invoice Date": "7/22/2023",
+    "Status": "Pending",
+    "Amount": "$6.60"
+  },
+  {
+    "Invoice ID": 8,
+    "Customer Name": "Frederick",
+    "Invoice Date": "8/8/2023",
+    "Status": "Draft",
+    "Amount": "$1.08"
+  },
+  {
+    "Invoice ID": 9,
+    "Customer Name": "Payton",
+    "Invoice Date": "3/13/2024",
+    "Status": "Draft",
+    "Amount": "$2.30"
+  },
+  {
+    "Invoice ID": 10,
+    "Customer Name": "Ileane",
+    "Invoice Date": "1/3/2024",
+    "Status": "Paid",
+    "Amount": "$2.64"
+  }
+]
